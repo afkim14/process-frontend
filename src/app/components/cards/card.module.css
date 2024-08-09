@@ -1,0 +1,85 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1D3557;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.1s ease background-color;
+    flex: 1;
+    overflow: hidden;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: #1D3557;
+    .cardTitle {
+        color: #F4F6F3;
+    }
+    .cardDescription {
+        color: #F4F6F3;
+    }
+    .cardUrl {
+        color: #F4F6F3;
+    }
+}
+
+.cardTitleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+} 
+
+.cardTitle {
+    color: #1D3557;
+    transition: 0.1s ease color;
+    font-size: 14px;
+}
+
+.cardUrlIcon {
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 3px;
+}
+
+.cardDescription {
+    margin-top: 5px;
+    font-size: 12px;
+    transition: 0.1s ease color;
+}
+
+.cardUrl {
+    margin-top: 5px;
+    color: #707070;
+    font-size: 12px;
+    transition: 0.1s ease color;
+}
+
+.deleteContainer {
+    width: 8%;
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1D3557;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.1s ease all;
+}
+
+.deleteContainer:hover {
+    cursor: pointer;
+    background-color: #c8c8c8;
+}
+
+.deleteIcon {
+    width: 17px;
+    height: 17px;
+}

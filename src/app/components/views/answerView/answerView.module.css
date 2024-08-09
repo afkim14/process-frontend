@@ -1,0 +1,9 @@
+.container {
+    flex: 1;
+    padding: 30px;
+}
+
+.question {
+    font-size: 18px;
+    color: #1D3557;
+}

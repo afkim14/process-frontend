@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.rootQuestion {
+    color: #1D3557;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.header {
+    margin-top: 10px;
+}
+
+.subheader {
+    margin-top: 40px;
+}

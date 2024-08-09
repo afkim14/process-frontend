@@ -1,0 +1,74 @@
+.container {
+    margin-top: 20px;
+}
+
+.questionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.questionContainer:not(:first-child) {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.questionHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.questionText {
+    margin-right: 5px;
+}
+
+.systemGeneratedQuestion {
+}
+
+.userGeneratedQuestion {
+    color: #1D3557
+}
+
+.questionSelectIcon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 2px solid #1D3557;
+    background-color: transparent;
+    transition: 0.1s all ease;
+}
+
+.questionSelectIconSelected {
+    background-color: #1D3557;
+}
+
+.questionSelectIcon:hover {
+    cursor: pointer;
+    background-color: #1D3557;
+}
+
+.questionExpandIcon {
+    width: 15px;
+    height: 15px;
+    transform: rotate(-90deg);
+    transition: 0.2s ease all;
+}
+
+.questionExpandIconSelected {
+    transform: rotate(0deg);
+}
+
+.questionExpandIcon:hover {
+    cursor: pointer;
+    transform: rotate(0deg);
+}
+
+.addQuestionInput {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.startAnsweringButton {
+    margin-top: 20px;
+}

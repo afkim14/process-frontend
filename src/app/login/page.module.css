@@ -1,0 +1,91 @@
+.page {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: #dcdcdc;
+    padding: 4vw;
+}
+
+.loginContainer {
+    width: 40%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vw;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.loginHeader {
+    font-size: 24px;
+    color: #1D3557;
+}
+
+.subheader {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.onboardingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #1D3557;
+    overflow: hidden;
+}
+
+.signInWithGoogleBtn {
+    background-color: #1D3557;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s all ease;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.signInWithGoogleBtnText {
+    color: #F4F6F3;
+    font-size: 14px;
+    display: block;
+    white-space: nowrap !important;
+}
+
+.signInWithGoogleBtn:hover {
+    cursor: pointer;
+    background-color: #0B1728;
+}
+
+.learnMoreText {
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #757575;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .loginContainer {
+        width: 100%;
+        padding: 5vw;
+    }
+
+    .onboardingContainer {
+    }
+    
+}

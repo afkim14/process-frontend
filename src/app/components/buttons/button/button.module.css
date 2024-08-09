@@ -1,0 +1,43 @@
+.button {
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D3557;
+    border-radius: 50px;
+    transition: 0.1s ease all;
+    width: max-content;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #0B1728;
+}
+
+.inversed {
+    background-color: #d5d8d3;
+}
+
+.inversed:hover {
+    background-color: #c5c5c5;
+}
+
+.buttonText {
+    color: #F4F6F3;
+    display: block;
+    font-size: 14px;
+}
+
+.inversedText {
+    color: #1D3557;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.disabled:hover {
+    cursor: not-allowed;
+}

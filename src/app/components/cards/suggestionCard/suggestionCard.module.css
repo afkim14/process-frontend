@@ -1,0 +1,20 @@
+.suggestionCard {
+    width: max-content;
+    flex: unset;
+}
+
+.suggestionCard:not(:first-child) {
+    margin-left: 5px;
+}
+
+.suggestionTitle {
+    font-size: 11px;
+}
+
+.suggestionDescripiton {
+    font-size: 12px;
+}
+
+.suggestionUrl {
+    font-size: 12px;
+}

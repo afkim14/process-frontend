@@ -1,0 +1,28 @@
+.submitButton {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D3557;
+    border-radius: 50px;
+    transition: 0.1s ease all;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+    background-color: #0B1728;
+}
+
+.arrow {
+    width: 35%;
+    height: auto;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.disabled:hover {
+    cursor: not-allowed;
+}

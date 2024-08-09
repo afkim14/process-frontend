@@ -1,0 +1,44 @@
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C0E10;
+    white-space: pre-wrap;
+    transition: 0.1s all ease;
+}
+
+.cursorPointer:hover {
+    cursor: pointer;
+    color: #1D3557;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.white {
+    color: #F4F6F3;
+}
+
+.white:hover {
+    color: #F4F6F3;
+}
+
+.h1 {
+    font-size: 24px;
+    color: #1D3557;
+    font-weight: 700;
+}
+
+.h2 {
+    font-size: 18px;
+    color: #1D3557;
+    font-weight: 600;
+}

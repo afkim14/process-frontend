@@ -1,0 +1,52 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1D3557;
+}
+
+.onboardingCard {
+    width: 50vw;
+    border-radius: 10px;
+    background-color: #F4F6F3;
+    overflow: hidden;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lottie {
+    margin-top: -20px;
+}
+
+.onboardingHeader {
+    text-align: center;
+}
+
+.onboardingSubheader {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 80%;
+}
+
+.onboardingButtonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.onboardingButton {
+    border-radius: 5px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.termsAndConditionsButton {
+    margin-bottom: 20px;
+}

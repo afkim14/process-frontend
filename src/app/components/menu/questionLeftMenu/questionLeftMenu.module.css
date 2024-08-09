@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #e0e0e0;
+    max-height: calc(100vh - 50px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.collapsedMenu {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+.openIcon {
+    width: 30px;
+    height: 30px;
+    transition: 0.1s ease all;
+}
+
+.openIcon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.headerContainer:not(:first-child) {
+    margin-top: 40px;
+}
+
+.leftHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.subtext {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #707070;
+}
+
+.sourcesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestionsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.addSourceInput {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.closeIcon {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-180deg);
+    transition: 0.1s ease all;
+}
+
+.closeIcon:hover {
+    cursor: pointer;
+    transform: rotate(-180deg) scale(1.1);
+}
+
+.suggestionTopic {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.suggestionCardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: unset;
+    flex-wrap: wrap;
+}

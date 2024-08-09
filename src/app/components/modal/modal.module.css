@@ -1,0 +1,26 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    background-color: #F4F6F3;
+}
+
+.backIcon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+    transition: 0.1s ease all;
+}
+
+.backIcon:hover {
+    cursor: pointer;
+    transform: translateX(-1px);
+}
+
+.bottomPadding {
+    height: 10vh;
+}

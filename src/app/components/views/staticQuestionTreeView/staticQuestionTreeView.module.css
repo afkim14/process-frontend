@@ -1,0 +1,103 @@
+.container {
+    margin-top: 20px;
+}
+
+.questionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.questionContainer:not(:first-child) {
+    margin-left: 20px;
+}
+
+.questionHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    padding-right: 5px;
+    transition: 0.05s ease all;
+}
+
+.questionHeaderContainer:hover {
+    cursor: pointer;
+}
+
+.questionHeaderContainerHovered {
+    background-color: #cdcdcd;
+    .actionContainer {
+        display: flex;
+    }
+}
+
+.questionText {
+    margin-right: 5px;
+    font-size: 12px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rootQuestionText {
+    font-size: 14px;
+}
+
+.selectedQuestionText {
+    color: #1D3557;
+}
+
+.questionExpandIcon {
+    width: 15px;
+    height: 15px;
+    transform: rotate(-90deg);
+    transition: 0.2s ease all;
+}
+
+.questionExpandIconSelected {
+    transform: rotate(0deg);
+}
+
+.questionExpandIcon:hover {
+    cursor: pointer;
+}
+
+.actionContainer {
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+    display: none;
+}
+
+.moreIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moreIconContainer:hover {
+    cursor: pointer;
+    .moreIcon {
+        transform: scale(1.1);
+    }
+}
+
+.moreIcon {
+    width: 5px;
+    margin: 5px;
+    transition: 0.1s ease all;
+}
+
+.addButton {
+    transform: scale(0.8);
+}
+
+.loadingContainer {
+    margin-left: 5px;
+}

@@ -1,0 +1,158 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.headerOuterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D3557;
+    border-radius: 20px;
+    width: 80%;
+    padding: 5vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.spiral {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.logo {
+    width: 80px;
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.name {
+    color: #F4F6F3;
+    font-size: 30px;
+}
+
+.beta{ 
+    background-color: #F4F6F3;
+    color: #1D3557;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 12px;
+    top: -5px;
+    position: relative;
+}
+
+.slogan {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #F4F6F3
+}
+
+.ctaButton {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    background-color: #F4F6F3;
+}
+
+.ctaButton:hover {
+    background-color: #dfe1de;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+    width: 40%;
+}
+
+.sectionHeader {
+    color: #1D3557;
+    font-size: 24px;
+}
+
+.sectionBody {
+    margin-top: 20px;
+    position: relative;
+}
+
+.quote {
+    margin-top: 20px;
+    position: relative;
+}
+
+.quoteAuthor {
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #1D3557;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5vw;
+    margin-top: 20vh;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footerColumn:not(:first-child) {
+    margin-left: 5vw;
+}
+
+.footerHeader {
+    color: #F4F6F3;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.footerText {
+    color: #F4F6F3;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footerText:hover {
+    color: #F4F6F3;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .headerContainer {
+        width: 90%;
+    }
+
+    .section {
+        width: 70%;
+    }
+    
+}

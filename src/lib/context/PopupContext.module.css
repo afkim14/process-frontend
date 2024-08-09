@@ -1,0 +1,53 @@
+.popupsContainer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: max-content;
+    max-width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup {
+    width: max-content;
+    max-width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    opacity: 0;
+    transform: translateY(5px);
+    animation: forwards 0.5s fadeIn ease;
+    margin-top: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.error {
+    background-color: #F9C1C1;
+}
+
+.success {
+    background-color: #8ED89A;
+}
+
+.warning {
+    background-color: #D6D88E;
+}
+
+.popupText {
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

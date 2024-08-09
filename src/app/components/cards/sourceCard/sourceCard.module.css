@@ -1,0 +1,31 @@
+.sourceCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.sourceCard {
+    margin-top: 0px !important;
+    flex-direction: column !important;
+    justify-content: unset !important;
+    align-items: flex-start !important;
+}
+
+.sourceTitle {
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sourceDescription {
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
